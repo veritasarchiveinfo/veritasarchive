@@ -19,7 +19,7 @@ const { title, activePage } = Astro.props;
 		<Navigation activePage={activePage} />
 		<slot />
 		<Footer />
-        <script is:inline src="/script.js"></script>
+        <script is:inline src={`${import.meta.env.BASE_URL}script.js`}></script>
         <script is:inline>
             if (typeof lucide !== 'undefined') {
                 lucide.createIcons();

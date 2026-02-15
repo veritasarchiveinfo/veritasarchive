@@ -22,7 +22,9 @@ Start writing your post content here...
 5.  **Save**. The website automatically updates!
 
 ## Tips
-- **Images**: Put images in `public/` folder and reference them like `/image.jpg`.
+- **Images**: Put images in `public/` folder.
+  - For Hero Image: Use `/image.jpg` (we handle the path automatically).
+  - For images inside the post: Use `/veritasarchive/image.jpg`.
 - **Formatting**:
     - `**Bold**` for bold
     - `*Italic*` for italic
