@@ -6,8 +6,8 @@ const { activePage } = Astro.props;
         <a href={import.meta.env.BASE_URL} class="logo-text">VERITAS ARCHIVE</a>
         <div class="nav-links">
             <a href={import.meta.env.BASE_URL} class:list={["nav-link", { active: activePage === 'home' }]}>Home</a>
-            <a href={`${import.meta.env.BASE_URL}sources`} class:list={["nav-link", { active: activePage === 'sources' }]}>Sources</a>
-            <a href={`${import.meta.env.BASE_URL}contact`} class:list={["nav-link", { active: activePage === 'contact' }]}>Contact</a>
+            <a href={`${import.meta.env.BASE_URL}/sources`} class:list={["nav-link", { active: activePage === 'sources' }]}>Sources</a>
+            <a href={`${import.meta.env.BASE_URL}/contact`} class:list={["nav-link", { active: activePage === 'contact' }]}>Contact</a>
         </div>
         <button class="menu-toggle" id="menu-btn">
             <div class="hamburger"><span></span><span></span><span></span></div>
@@ -17,6 +17,6 @@ const { activePage } = Astro.props;
 
 <div class="mobile-menu" id="mobile-menu">
     <a href={import.meta.env.BASE_URL} class="mobile-link">Home</a>
-    <a href={`${import.meta.env.BASE_URL}sources`} class="mobile-link">Sources</a>
-    <a href={`${import.meta.env.BASE_URL}contact`} class="mobile-link">Contact</a>
+    <a href={`${import.meta.env.BASE_URL}/sources`} class="mobile-link">Sources</a>
+    <a href={`${import.meta.env.BASE_URL}/contact`} class="mobile-link">Contact</a>
 </div>

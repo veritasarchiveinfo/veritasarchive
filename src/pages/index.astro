@@ -10,7 +10,7 @@ const posts = (await getCollection('blog')).sort(
 <Layout title="VeritasArchive — Truth." activePage="home">
 	<!-- Hero Section -->
     <section class="hero">
-        <img src={`${import.meta.env.BASE_URL}Logo.jpg`} alt="Veritas Logo" class="hero-logo">
+        <img src={`${import.meta.env.BASE_URL}/Logo.jpg`} alt="Veritas Logo" class="hero-logo">
 
         <h1 style="margin-bottom: 1rem; font-size: 3.5rem;">
             VERITAS ARCHIVE
@@ -37,7 +37,7 @@ const posts = (await getCollection('blog')).sort(
         <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
             {
                 posts.map((post) => (
-                    <a href={`${import.meta.env.BASE_URL}posts/${post.slug}/`} class="card">
+                    <a href={`${import.meta.env.BASE_URL}/posts/${post.slug}/`} class="card">
                         <div class="card-meta">
                             {post.data.category || 'Analysis'} &mdash; <time datetime={post.data.pubDate.toISOString()}>
                                 {post.data.pubDate.toLocaleDateString('en-us', {
