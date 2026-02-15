@@ -1,0 +1,29 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+interface Props {
+	title: string;
+    activePage?: string;
+}
+
+const { title, activePage } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<BaseHead title={title} />
+	<body>
+		<Navigation activePage={activePage} />
+		<slot />
+		<Footer />
+        <script is:inline src="/script.js"></script>
+        <script is:inline>
+            if (typeof lucide !== 'undefined') {
+                lucide.createIcons();
+            }
+        </script>
+	</body>
+</html>

@@ -1,0 +1,58 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<Layout title="VeritasArchive — Truth." activePage="home">
+	<!-- Hero Section -->
+    <section class="hero">
+        <img src="/Logo.jpg" alt="Veritas Logo" class="hero-logo">
+
+        <h1 style="margin-bottom: 1rem; font-size: 3.5rem;">
+            VERITAS ARCHIVE
+        </h1>
+
+        <div class="hero-quote">
+            "For justice, for freedom, and for human dignity"
+        </div>
+
+        <p class="fade-in delay-200"
+            style="margin-top: 4rem; text-transform: uppercase; letter-spacing: 0.2em; font-size: 0.9rem;">
+            Scroll to uncover truth
+        </p>
+        <i data-lucide="chevron-down" class="fade-in delay-300 scroll-indicator"
+            style="margin-top: 1rem; opacity: 0.5;"></i>
+    </section>
+
+    <!-- Post Grid Section -->
+    <section id="latest-intel" class="container fade-in delay-300" style="padding: 6rem 1.5rem;">
+        <div style="text-align: center; margin-bottom: 4rem;">
+            <h2>Latest Intelligence</h2>
+        </div>
+
+        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+            {
+                posts.map((post) => (
+                    <a href={`/posts/${post.slug}/`} class="card">
+                        <div class="card-meta">
+                            {post.data.category || 'Analysis'} &mdash; <time datetime={post.data.pubDate.toISOString()}>
+                                {post.data.pubDate.toLocaleDateString('en-us', {
+                                    year: 'numeric',
+                                    month: 'short',
+                                    day: 'numeric',
+                                })}
+                            </time>
+                        </div>
+                        <h3>{post.data.title}</h3>
+                        <p>{post.data.description}</p>
+                        <div class="read-more">Read Brief <i data-lucide="arrow-right" size="14"></i></div>
+                    </a>
+                ))
+            }
+        </div>
+    </section>
+</Layout>
