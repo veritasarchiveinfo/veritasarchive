@@ -5,7 +5,7 @@ pubDate: 'Mar 03 2026'
 heroImage: '/placeholder-1.jpg'
 category: 'Analysis'
 ---
-
+ 
 > Macedonia has a rich history as a distinct entity, beginning as an ancient kingdom and evolving into a modern independent state. This article, based solely on the provided historical documents, clarifies that Macedonia was indeed a country in antiquity—recognized as the Kingdom of Macedonia under rulers like Philip II and Alexander the Great—and remains one today as the Republic of Macedonia, which gained independence in 1991. Drawing from factual accounts in the sources, we explore this continuity while highlighting the development of Macedonian identity amidst regional challenges.
 
 
