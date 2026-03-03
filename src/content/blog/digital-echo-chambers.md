@@ -1,9 +1,15 @@
 ---
-title: 'ASJdkasdokasmdoasmd'
-description: 'sdasdsadasdasdsa'
-pubDate: 'Feb 15 2026'
+title: 'The Propaganda Wars in Ottoman Macedonia: Absurd Battles for Identity'
+description: 'An analysis of late 19th and early 20th-century propaganda in Macedonia, highlighting absurd tactics like grave disputes and the resilience of the local Orthodox population amid external influences.'
+pubDate: 'Mar 03 2026'
 heroImage: '/placeholder-1.jpg'
-category: 'History'
+category: 'Analysis'
 ---
 
-Start writing your post content here...
+In the late 19th and early 20th centuries, Ottoman Macedonia became a hotbed of competing national propagandas from neighboring states, each vying to claim the region's Orthodox Christian population as their own. As detailed in Vančo Gjorgiev's paper, this era saw Greek, Bulgarian, Serbian, and Romanian efforts to establish "national supporters" through churches, schools, and humanitarian aid, all aimed at advancing territorial aspirations. The local population, however, was neither inherently Greek, Bulgarian, nor Serbian, often identifying simply as Christians well into the 20th century.
+Gjorgiev highlights an untouched aspect of this conflict: the "battle for the graves," where Orthodox communities clashed over burial rights to assert national claims. This absurdity underscores the ferocious and unscrupulous nature of the propaganda, which exploited basic religious, educational, and humane needs to impose foreign national awareness. For instance, sponsors funded church constructions, provided books, educated priests and teachers, and offered scholarships to mobilize local leaders with grants and subsidies.
+The Ottoman Millet system further fueled this, as populations identified by religious affiliation—Christian or Muslim—rather than nationality. In remote areas, as noted by English humanist Henry Noel Brailsford in 1903, villagers in the Ohrid region knew little of national labels. When asked about their ancestors who built the Ohrid fortress, they replied, "They were not Turks, they were Christians," illustrating a pre-nationalist worldview untouched by propaganda.
+Romanian propaganda targeted the Vlach (Aromanian) population, using it tactically to pressure Bulgaria for concessions in Dobrudja, without direct territorial aims in Macedonia. Meanwhile, the "Macedonian Conspiracy" document reveals how Greek influence waned in Salonica, where once-dominant Greek clergy, schools, and commerce failed to Hellenize the Slavic population despite opportunities. Rich Greek bequests were often mismanaged, and Jewish communities, primarily of Spanish origin, controlled much of the city, maintaining strict customs and internal divisions like the "Young Jew" party.
+Kyril Drezov's overview of Macedonian identity claims provides context for these struggles. The 1991 independence of the Republic of Macedonia revived debates, with some projecting modern identities back to antiquity. Drezov critiques attempts to cover historical complexities, noting that ancient Macedonians were viewed as non-Greeks by contemporaries like Demosthenes, despite shared linguistic ties. This challenges simplistic narratives, emphasizing the region's ethnographic and psychopathological layers.
+Nolan Gillies' thesis explores Macedonian nationalism's complicated ties with Bulgaria, while Victor Sinadinoski's book critiques the Macedonian Political Organization, revealing internal diaspora tensions. Together, these sources paint a picture of a distinct Macedonian identity forged in resistance to external manipulations, rooted in the region's unique historical path rather than imposed foreign agendas.
+This propaganda war, absurd in tactics like grave battles, ultimately failed to erase the local population's essence, paving the way for modern Macedonian self-determination.
